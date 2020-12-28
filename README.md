@@ -30,3 +30,6 @@ First copy the gs file into your Google script dashboard, then set the API key f
 
 Well I guess we could connect the app with my calendar and make it congrat someone if it is someones birthday. But first, I usually don't save my friends birthday on my calendar, and secondly, for those I do save his birthday, I like to make something special (or at least I try)
 <p></p>I could also make it "special" with a script, but I don't trust for example the Google Photos filtering and grouping algorithm. I mean... It looks nice, but some pics are private, and I wouldn't trust a script or program to distinguish from private pics to public pics
+
+<h1>Disclaimer</h1>
+Ok, maybe the code isn't the cleanest... Some Ideas I had is that on Install I could create those labels on gmail, so the user, you and me, don't need to set those predefined variables. Just because of that, it will probably not work. <p></p>Just because, in reality the DONE_LABEL needs to be written in two forms. One by how it will be searched by "GmailApp.search" and one by how "GmailApp.getUserLabelByName" needs to get the label. I guess I could get rid of the Done mechanism, as it isn't necesary and does not really work, it just makes the request shorter to process. 
