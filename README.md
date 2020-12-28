@@ -9,3 +9,4 @@ At the end it also includes a random Birtday Best Wishes quote extracted from a 
 
 <h1>How does it look?</h1>
 
+<img src="https://github.com/lukilukeskywalker/GmailAutoCongrats/blob/main/AutoCongrat.png">
