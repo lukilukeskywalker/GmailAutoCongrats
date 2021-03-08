@@ -20,11 +20,12 @@ The first process per thread is to see if the first message (message[0]) has bee
 
 
 <h1>Set up</h1>
-First copy the gs file into your Google script dashboard, then set the API key for Giphy, create the corresponding labels in your gmail and set a filter in gmail that sets the label for birthday to any incoming mails that contain any key words (like, "Birthday"...) Also create a Done label inside the "birthday" label.
-<p></p> Next step is setting those parameters in your script, the first parameter, the LABELS_TO_CONGRATULATE parameter, must be set as it appears on the search prompt when you click on the "birthday" label. The second parameter ,DONE_LABEL, must be written like in a folder system
-<p></p>Now save it, and go to "run" on google scrips, and run install. This will create a daily trigger that executes dailyCongratulations() 
+First copy the gs file into your Google script dashboard, then set the API key for Giphy, set the CONGRAT_LABEL parameter. The Label, or Labels, will be created once you run "Install" Also add a SUBJECT_TRIGGER. This variable will contain the word that triggers the filter in gmail, and sets the CONGRAT_LABEL to the thread.
+<p></p>Now save it, and go to "run" on google scrips, and run install. "Install" will create a label, a Filter and a daily trigger that executes dailyCongratulations() 
 
-<p></p> To test it out you can send yourself an email with the birthday keyword that will end on the filtered label "birthday label" and then run dailyCongratulations() manually.
+<p></p> To test it out you can send yourself an email with the birthday keyword (SUBJECT_TRIGGER) that will end on the filtered label "birthday label" and then run dailyCongratulations() manually.
+
+You can also modify the filter in Gmail, to add more Triggers for setting the label to a thread
 
 <h1>What else can be done</h1>
 
