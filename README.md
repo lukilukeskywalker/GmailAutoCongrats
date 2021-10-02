@@ -30,4 +30,4 @@ You can also modify the filter in Gmail, to add more Triggers for setting the la
 <h1>What else can be done</h1>
 
 Well I guess we could connect the app with my calendar and make it congrat someone if it is someones birthday. But first, I usually don't save my friends birthday on my calendar, and secondly, for those I do save his birthday, I like to make something special (or at least I try)
-<p></p>I could also make it "special" with a script, but I don't trust for example the Google Photos filtering and grouping algorithm. I mean... It looks nice, but some pics are private, and I wouldn't trust a script or program to distinguish from private pics to public pics
+<p></p>I could also make it "special" with a script, but I don't trust for example the Google Photos filtering and grouping algorithm. I mean... It looks nice, but some pics are private, and I wouldn't trust a script or program to distinguish from what is private and what is public
